@@ -1,1 +1,10 @@
-# fastapi-economic-bot-showcase
+## FastAPI Economic Bot (Showcase)
+
+Прототип backend-части экономического бота. 
+Основной фокус - асинхронная архитектура FastAPI + SQLAlchemy + PostgreSQL. 
+Настроены тесты (pytest) с асинхронной БД, Docker Compose.
+
+Проект учебный, незавершённый - использовал для изучения:
+- асинхронной работы с БД,
+- структуры FastAPI-приложений,
+- тестирования.
