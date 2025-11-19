@@ -1,0 +1,21 @@
+[project]
+name = "economy-bot"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "alembic>=1.16.4",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.115.14",
+    "httpx>=0.28.1",
+    "psycopg2>=2.9.10",
+    "pydantic-settings>=2.10.1",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.0.0",
+    "python-dotenv>=1.1.1",
+    "ruff>=0.12.2",
+    "sqlalchemy[asyncio]>=2.0.41",
+    "uvicorn>=0.35.0",
+    "wemake-python-styleguide>=1.2.0",
+]
